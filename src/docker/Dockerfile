@@ -12,6 +12,9 @@ RUN apt-get update \
         jq \
         git \
 	libicu74 \
+ 	libkrb5-3 \
+  	zlib1g \
+   	debsums \
         iputils-ping \
         libcurl4 \
         libunwind8 \
