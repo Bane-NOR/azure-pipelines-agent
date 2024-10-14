@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.1.0...v1.2.0) (2024-10-14)
+
+
+### Features
+
+* add docker cli to image ([4b27653](https://github.com/Bane-NOR/azure-pipelines-agent/commit/4b276532e5525a7cf976c26ce4ccf16c047aa6f0))
+
 ## [1.1.0](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.0.1...v1.1.0) (2024-10-14)
 
 
