@@ -4,24 +4,34 @@ FROM ubuntu:24.04
 # configure apt to not require confirmation (assume the -y argument by default)
 ENV DEBIAN_FRONTEND=noninteractive
 RUN echo "APT::Get::Assume-Yes \"true\";" > /etc/apt/apt.conf.d/90assumeyes
-
+RUN apt-get update &&\
+    apt-get install -y --no-install-recommends \
+        ca-certificates \
+        curl
+RUN curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc  && \
+    chmod a+r /etc/apt/keyrings/docker.asc && \
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null
 RUN apt-get update \
 && apt-get install -y --no-install-recommends \
         ca-certificates \
-        curl \
         jq \
         git \
-	libicu74 \
- 	libkrb5-3 \
-  	zlib1g \
-   	debsums \
+	      libicu74 \
+        libkrb5-3 \
+        zlib1g \
+        debsums \
         iputils-ping \
         libcurl4 \
         libunwind8 \
         netcat-traditional \
         libssl1.0 \
-		zip \
-		unzip \
+        docker-ce \
+        docker-ce-cli \
+        containerd.io \
+        docker-buildx-plugin \
+		    zip \
+		    unzip \
+        jq
 && rm -rf /var/lib/apt/lists/*
 
 RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
