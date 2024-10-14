@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.0.1...v1.1.0) (2024-10-14)
+
+
+### Features
+
+* add missing deps for image ([6e3a9be](https://github.com/Bane-NOR/azure-pipelines-agent/commit/6e3a9be635bad4c5b848b465ca06c7be9a7ef822))
+
 ## [1.0.1](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.0.0...v1.0.1) (2024-10-11)
 
 
