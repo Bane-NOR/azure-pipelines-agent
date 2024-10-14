@@ -11,6 +11,7 @@ RUN apt-get update \
         curl \
         jq \
         git \
+	libicu74 \
         iputils-ping \
         libcurl4 \
         libunwind8 \
