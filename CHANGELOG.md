@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.2.0...v1.2.1) (2024-10-15)
+
+
+### Bug Fixes
+
+* syntax error in dockerfile ([eaa3987](https://github.com/Bane-NOR/azure-pipelines-agent/commit/eaa3987f7d9cead078808c079f3bf2fa29dc576c))
+
 ## [1.2.0](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.1.0...v1.2.0) (2024-10-14)
 
 
