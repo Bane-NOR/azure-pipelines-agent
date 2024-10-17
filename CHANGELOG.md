@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.2.1...v1.2.2) (2024-10-17)
+
+
+### Bug Fixes
+
+* add netttools package ([66f3e45](https://github.com/Bane-NOR/azure-pipelines-agent/commit/66f3e457c88916798e86516a2fb9020ff4f5b028))
+
 ## [1.2.1](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.2.0...v1.2.1) (2024-10-15)
 
 
