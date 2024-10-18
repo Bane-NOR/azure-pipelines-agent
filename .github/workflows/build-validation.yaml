@@ -2,7 +2,7 @@ name: Validate container build for release PR
 
 on:
   pull_request:
-    types: [opened, edited]
+    types: [opened,synchronize, edited]
 
 env:
   REGISTRY: ghcr.io
