@@ -11,7 +11,7 @@ RUN apt-get update &&\
 RUN curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc  && \
     chmod a+r /etc/apt/keyrings/docker.asc && \
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null && \
-    curl -fsSL https://deb.nodesource.com/setup_22.x 
+    curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
 RUN apt-get update \
 && apt-get install -y --no-install-recommends \
         ca-certificates \
@@ -43,13 +43,13 @@ RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
 
 RUN node -v && npm -v
 
-RUN npx playwright install --with-deps && \
-    npm install -D @playwright/test && \
-    npm i create-playwright --quiet --with-deps && \
-    npm install -g @usebruno/cli && \
-    npm install -g dotenv-cli && \
-    npm install -D typescript && \
-    npm install --save @types/node
+RUN npx playwright install --with-deps
+RUN npm install -D @playwright/test
+RUN npm i create-playwright --quiet --with-deps
+RUN npm install -g @usebruno/cli
+RUN npm install -g dotenv-cli
+RUN npm install -D typescript
+RUN npm install --save @types/node
 
 WORKDIR /azp
 
