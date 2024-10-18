@@ -16,7 +16,7 @@ RUN apt-get update \
         ca-certificates \
         jq \
         git \
-	libicu74 \
+	      libicu74 \
         libkrb5-3 \
         zlib1g \
         debsums \
@@ -29,8 +29,8 @@ RUN apt-get update \
         docker-ce-cli \
         containerd.io \
         docker-buildx-plugin \
-	zip \
-	unzip \
+	      zip \
+	      unzip \
         jq \
 	net-tools \
 && rm -rf /var/lib/apt/lists/*
