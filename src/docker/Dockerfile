@@ -43,12 +43,11 @@ RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
 
 RUN node -v && npm -v
 
-RUN npx playwright install --with-deps
-RUN npm i create-playwright --quiet --with-deps
-RUN npm install -g @usebruno/cli
-RUN npm install -g dotenv-cli
-RUN npm install -D typescript
-RUN npm install --save @types/node
+RUN npx playwright install --with-deps && \
+    npm install -g @usebruno/cli && \
+    npm install -g dotenv-cli && \
+    npm install -D typescript && \
+    npm install --save @types/node
 
 WORKDIR /azp
 
