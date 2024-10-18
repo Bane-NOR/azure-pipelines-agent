@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.3](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.2.2...v1.2.3) (2024-10-18)
+
+
+### Bug Fixes
+
+* define validating workflow ([4615f90](https://github.com/Bane-NOR/azure-pipelines-agent/commit/4615f90f74bdf7ba8d470ba889bf5847a6511809))
+* whitespacing ([ea82703](https://github.com/Bane-NOR/azure-pipelines-agent/commit/ea82703973b67aeb7b1f3fdd5ab53b90cf7e0df5))
+
 ## [1.2.2](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.2.1...v1.2.2) (2024-10-17)
 
 
