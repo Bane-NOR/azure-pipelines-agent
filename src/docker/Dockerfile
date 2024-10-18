@@ -44,7 +44,7 @@ RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
 RUN node -v && npm -v
 
 RUN npx playwright install --with-deps
-RUN npm install -D @playwright/test
+RUN npm ci -D @playwright/test
 RUN npm i create-playwright --quiet --with-deps
 RUN npm install -g @usebruno/cli
 RUN npm install -g dotenv-cli
