@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.3.0](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.2.3...v1.3.0) (2024-10-18)
+
+
+### Features
+
+* update agent image with node, playwright and bruno ([79d714b](https://github.com/Bane-NOR/azure-pipelines-agent/commit/79d714b078dba2389bc02ebec8c187b4bdece767))
+* update agent image with node, playwright and bruno ([b9e5fbc](https://github.com/Bane-NOR/azure-pipelines-agent/commit/b9e5fbc0b28956a5340fca6b25fe438a36c3414c))
+* update agent image with node, playwright and bruno ([4e3f296](https://github.com/Bane-NOR/azure-pipelines-agent/commit/4e3f2960b84ebc702c44ae320130dc8e8cf53d49))
+* update agent image with node, playwright and bruno ([60c7b6f](https://github.com/Bane-NOR/azure-pipelines-agent/commit/60c7b6f2cab9a012c1f376715b5d4904dafbd12b))
+* update agent image with node, playwright and bruno ([c7a8b59](https://github.com/Bane-NOR/azure-pipelines-agent/commit/c7a8b59646f37551b1fad785a5bad86472d9b489))
+* update agent image with node, playwright and bruno ([f046abe](https://github.com/Bane-NOR/azure-pipelines-agent/commit/f046abe3934ff0c08bca15584685c04663b6b91d))
+* update agent image with node, playwright and bruno ([2a63b28](https://github.com/Bane-NOR/azure-pipelines-agent/commit/2a63b280fb700fe0560526152d77d5ae0c5389ff))
+* update agent image with node, playwright and bruno ([ee27138](https://github.com/Bane-NOR/azure-pipelines-agent/commit/ee271383b1cc9f57f7f8a7586735ff78f9c33867))
+* update agent image with node, playwright and bruno ([6a08675](https://github.com/Bane-NOR/azure-pipelines-agent/commit/6a08675b0eacbe472cdffbe4ba1de4fcba93ac47))
+* update agent image with node, playwright and bruno ([702734d](https://github.com/Bane-NOR/azure-pipelines-agent/commit/702734dc086667424d04da80b26ee52aca4e944e))
+* update agent image with node, playwright and bruno ([624963b](https://github.com/Bane-NOR/azure-pipelines-agent/commit/624963b765840a50cface3cb3e5e919c8eccc960))
+* update agent image with node, playwright and bruno ([3b4ad07](https://github.com/Bane-NOR/azure-pipelines-agent/commit/3b4ad074fd0807762a078f745f12d0509595a1d1))
+* update agent image with node, playwright and bruno ([9c74825](https://github.com/Bane-NOR/azure-pipelines-agent/commit/9c748254b81193dadbb7b75283cbee9316401eee))
+* update agent image with node, playwright and bruno ([2178731](https://github.com/Bane-NOR/azure-pipelines-agent/commit/21787317adc9df19247fceead62acd20fb104621))
+* update agent image with node, playwright and bruno ([8069b5e](https://github.com/Bane-NOR/azure-pipelines-agent/commit/8069b5ef5eea41f4617cb728930af9dc1dbf8dd6))
+* update agent image with node, playwright and bruno ([c4d6453](https://github.com/Bane-NOR/azure-pipelines-agent/commit/c4d64536b484347504619309d6faf2103c6ea6cb))
+* update agent image with node, playwright and bruno ([9fef596](https://github.com/Bane-NOR/azure-pipelines-agent/commit/9fef5966fae4ba9b54fe28b52168378ce3314618))
+* update agent image with node, playwright and bruno ([807d250](https://github.com/Bane-NOR/azure-pipelines-agent/commit/807d250fab00fc5458ecc7a47c8e5cdf444b26aa))
+* use nodesource v22 ([c361b1e](https://github.com/Bane-NOR/azure-pipelines-agent/commit/c361b1e371997b27932e70a1d912499c3ef13bd4))
+
+
+### Bug Fixes
+
+* ensure build validation runs on pr updates ([51351c6](https://github.com/Bane-NOR/azure-pipelines-agent/commit/51351c62a7b6874d6db77671646acb2940999292))
+
 ## [1.2.3](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.2.2...v1.2.3) (2024-10-18)
 
 
