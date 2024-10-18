@@ -32,11 +32,22 @@ RUN apt-get update \
 	      zip \
 	      unzip \
         jq \
-	net-tools \
+	      net-tools \
+        nodejs \
+        npm \
 && rm -rf /var/lib/apt/lists/*
 
 RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
   && rm -rf /var/lib/apt/lists/* && az aks install-cli
+
+RUN node -v && npm -v
+
+RUN npm install -D @playwright/test && \
+    npx playwright install --with-deps && \
+    npm install -g @usebruno/cli && \
+    npm install -g dotenv-cli && \
+    npm install -D typescript && \
+    npm install --save @types/node
 
 WORKDIR /azp
 
