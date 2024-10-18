@@ -35,6 +35,7 @@ RUN apt-get update \
         jq \
 	      net-tools \
         nodejs \
+        npm
 && rm -rf /var/lib/apt/lists/*
 
 RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
