@@ -17,7 +17,7 @@ RUN apt-get update \
         ca-certificates \
         jq \
         git \
-	libicu74 \
+	      libicu74 \
         libkrb5-3 \
         zlib1g \
         debsums \
@@ -30,14 +30,14 @@ RUN apt-get update \
         docker-ce-cli \
         containerd.io \
         docker-buildx-plugin \
-	zip \
-	unzip \
+	      zip \
+        unzip \
         jq \
-	net-tools \
+        net-tools \
         nodejs \
         npm \
-	python3-full \
- 	python3-kubernetes \
+        python3-full \
+        python3-kubernetes \
 && rm -rf /var/lib/apt/lists/*
 
 RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
