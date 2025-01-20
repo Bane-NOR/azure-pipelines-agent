@@ -36,8 +36,10 @@ RUN apt-get update \
 	    net-tools \
         nodejs \
         npm \
-        python3 \
 && rm -rf /var/lib/apt/lists/*
+
+RUN curl -O https://bootstrap.pypa.io/get-pip.py \
+  && python3 get-pip.py
 
 RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
   && rm -rf /var/lib/apt/lists/* && az aks install-cli
