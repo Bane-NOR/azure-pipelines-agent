@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.3.1](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.3.0...v1.3.1) (2025-01-20)
+
+
+### Bug Fixes
+
+* install pip ([c82b6f2](https://github.com/Bane-NOR/azure-pipelines-agent/commit/c82b6f22f1a1f725abf9a730d026147b9ca7a37c))
+* install python ([f026a18](https://github.com/Bane-NOR/azure-pipelines-agent/commit/f026a18fcfe7ae571cb42fe4a674e7b06b14167e))
+* test python ([a82bf4b](https://github.com/Bane-NOR/azure-pipelines-agent/commit/a82bf4b13ff50abc5b07a96213c1227a459999cb))
+* test python ([8a8acb8](https://github.com/Bane-NOR/azure-pipelines-agent/commit/8a8acb8d58e22fe088fba20f9f9b4d81992f0ab9))
+* test python3-pip ([5c1c64e](https://github.com/Bane-NOR/azure-pipelines-agent/commit/5c1c64e530fb733aa564d8f1808db104cf9e819f))
+
 ## [1.3.0](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.2.3...v1.3.0) (2024-10-18)
 
 
