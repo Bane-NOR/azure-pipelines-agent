@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.3.1...v1.3.2) (2025-01-21)
+
+
+### Bug Fixes
+
+* build new image ([4a1bd16](https://github.com/Bane-NOR/azure-pipelines-agent/commit/4a1bd165acc1c043f8999610313c4f7346287581))
+
 ## [1.3.1](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.3.0...v1.3.1) (2025-01-20)
 
 
