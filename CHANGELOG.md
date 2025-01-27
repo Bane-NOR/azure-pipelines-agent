@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.3](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.3.2...v1.3.3) (2025-01-27)
+
+
+### Bug Fixes
+
+* add pip ([2cfeac6](https://github.com/Bane-NOR/azure-pipelines-agent/commit/2cfeac66eae3cdb4735ccf605a7e15b0a0163374))
+* add pygithub, azure-devops and pip ([400018d](https://github.com/Bane-NOR/azure-pipelines-agent/commit/400018da7c9b4573538fd87294a0c4d33383def9))
+
 ## [1.3.2](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.3.1...v1.3.2) (2025-01-21)
 
 
