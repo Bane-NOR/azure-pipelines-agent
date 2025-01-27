@@ -38,6 +38,7 @@ RUN apt-get update \
         npm \
         python3-full \
         python3-kubernetes \
+        python3-pip \
 && rm -rf /var/lib/apt/lists/*
 
 RUN curl -LsS https://aka.ms/InstallAzureCLIDeb | bash \
