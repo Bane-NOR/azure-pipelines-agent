@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.4.0](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.3.3...v1.4.0) (2025-08-06)
+
+
+### Features
+
+* **scorecard:** add workflow ([d0fe372](https://github.com/Bane-NOR/azure-pipelines-agent/commit/d0fe37229be3018bf835b0badd7678849f0e2b04))
+
+
+### Bug Fixes
+
+* ensure cron builds  ([362605a](https://github.com/Bane-NOR/azure-pipelines-agent/commit/362605afc920a4ae1889179abca4245621ac6ef1))
+* errorhandling for empty list ([a0a9cb9](https://github.com/Bane-NOR/azure-pipelines-agent/commit/a0a9cb95b9188d5e4c5cd0924b7cbeb4352831e4))
+* powershell to find packages ([41353d8](https://github.com/Bane-NOR/azure-pipelines-agent/commit/41353d81fef2307feeaac984f07dd31511a4b822))
+* updated name of build yml ([4212655](https://github.com/Bane-NOR/azure-pipelines-agent/commit/421265568293e33497ab3c4e9a0b112da88516d2))
+
 ## [1.3.3](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.3.2...v1.3.3) (2025-01-27)
 
 
