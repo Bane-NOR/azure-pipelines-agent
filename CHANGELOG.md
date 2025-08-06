@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.1](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.4.0...v1.4.1) (2025-08-06)
+
+
+### Bug Fixes
+
+* improve Readme ([39d2187](https://github.com/Bane-NOR/azure-pipelines-agent/commit/39d2187f6ad936f9af941422ab767b3313f2b0f5))
+* improve Readme ([7e520f6](https://github.com/Bane-NOR/azure-pipelines-agent/commit/7e520f658014337906590effa766281f8f6b8bd6))
+
 ## [1.4.0](https://github.com/Bane-NOR/azure-pipelines-agent/compare/v1.3.3...v1.4.0) (2025-08-06)
 
 
