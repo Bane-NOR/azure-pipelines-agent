@@ -36,7 +36,6 @@ RUN apt-get update \
         jq \
         net-tools \
         nodejs \
-        npm \
         python3-full \
         python3-kubernetes \
         python3-pip \
@@ -62,6 +61,7 @@ COPY ./start.sh .
 RUN chmod +x start.sh
 
 CMD ["./start.sh"]
+
 
 
 
