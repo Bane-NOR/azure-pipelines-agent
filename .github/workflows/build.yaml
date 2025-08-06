@@ -3,6 +3,9 @@ name: Container Build
 on:
   release:
     types: [published]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
 
 env:
   REGISTRY: ghcr.io
